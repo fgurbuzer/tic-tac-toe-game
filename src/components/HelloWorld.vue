@@ -55,19 +55,16 @@
         if (this.boxes[index] || this.winner || this.isDraw) {
           return;
         }
-        console.log(index);
-        //this.boxes[index] = this.currentPlayer;
+     
         this.$set(this.boxes, index, this.currentPlayer);
      
         const winner = this.checkWinner();
+        
         if (winner) {
           this.winner = winner;
         } else {
           this.currentPlayer = (this.currentPlayer === 'X') ? 'O' : 'X'
         }
-
-    
-        console.log(this.boxes);
 
       },
       reset () {

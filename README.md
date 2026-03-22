@@ -36,10 +36,15 @@ This project was developed to strengthen practical understanding of core Vue 2 c
 
 ## Project Setup
 
+
 Install dependencies:
 
 ```bash
 npm install
+```
+````
+
+Run the development server:
 
 ```bash
 npm run serve
