@@ -34,17 +34,15 @@ This project was developed to strengthen practical understanding of core Vue 2 c
 - computed properties
 - game state management
 
-## Project Setup
 
-
-Install dependencies:
+## Installation
 
 ```bash
 npm install
 ```
-````
 
-Run the development server:
+## Development
 
 ```bash
 npm run serve
+```
